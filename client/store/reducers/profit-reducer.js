@@ -1,5 +1,4 @@
 import moment from 'moment';
-import numeral from 'numeral';
 
 const initialState = {
 	profit: 0
