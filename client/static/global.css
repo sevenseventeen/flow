@@ -1,0 +1,21 @@
+body {
+	background: brown; 
+}
+
+label {
+	display: block;
+}
+
+#app {
+	width: 480px;
+	background-color:#fff;
+	margin: 0 auto;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+b {
+	font-weight: bold;
+	color: orange;
+}
