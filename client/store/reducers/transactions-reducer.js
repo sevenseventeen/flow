@@ -2,7 +2,7 @@ const initialState = {
 	transactions: {
 		data: []
 	},
-	currentBalance: ""
+	currentBalance: 0
 }
 
 export default function reducer(state = initialState, action) {
