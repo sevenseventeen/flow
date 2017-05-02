@@ -45,7 +45,8 @@ module.exports = {
 	},
 
 	getCurrentBalance: function(parameters, response, callback) {
-		var query = "SELECT currentBalance FROM transactions ORDER BY transactionDate DESC LIMIT 1";
+		// var query = "SELECT currentBalance FROM transactions ORDER BY transactionDate DESC LIMIT 1";
+		var query = "SELECT * FROM transactions ORDER BY transactionDate DESC, transactionID DESC LIMIT 1";
 		connect(query, parameters, response, callback);
 	},
 
