@@ -20,7 +20,7 @@ class CurrentBalance extends React.Component {
 
 	render() {
 		return (
-			<h1>This is CurrentBalance: {this.props.currentBalance}</h1>
+			<h1>This is CurrentBalance: ${this.props.currentBalance.toFixed(2)}</h1>
 		);
 	}
 }
